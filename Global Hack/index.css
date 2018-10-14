@@ -1,0 +1,55 @@
+::-webkit-scrollbar
+{
+    width: 20px;
+}
+
+::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: #4c5c96;
+    border-radius: 100px;
+    border: 2px;
+    border-color: #2e3141;
+    outline: inherit;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+    background: #2e3141;
+    outline-color: #4c5c96
+}
+.carousel-inner img {
+  margin: auto;
+}
+
+.features article {
+      width: calc(40% - 1.5em);
+      margin: 6%;
+}
+.footer{
+    text-align: right;
+    margin-right: 3%;
+}
+.footer2{
+  margin-left: 5%;
+}
+.footer3{
+  margin-left: 8%;
+}
+.skiptranslate goog-te-gadget{
+  visibility: hidden;
+}
+.goog-te-banner-frame skiptranslate{
+  visibility: hidden;
+}
+.goog-te-banner{
+  visibility: hidden;
+}
+.h3.major{
+  margin: auto;
+}
